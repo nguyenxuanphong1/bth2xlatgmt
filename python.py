@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Đọc ảnh và chuyển sang ảnh xám
-image = cv2.imread('anhnguoi.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('naobo.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Dò biên bằng toán tử Sobel
 def sobel_edge_detection(image):
